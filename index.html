@@ -24,7 +24,6 @@
 
     <!-- MathJax -->
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     </script>
@@ -64,18 +63,6 @@
                 <h4>Indian Institute of Technology Madras<br/>December 2016.</h4>
               </section>
 
-              <!-- King's College Cambridge -->
-              <section data-background="images/kings.jpg" data-background-size="100%">
-              </section>
-
-              <!-- Multiscale approach -->
-              <section>
-                <h2>Multiscale modelling in geomechanics</h2>
-	        <figure>
-	          <img src="images/multiscale.png" width="100%">
-	        </figure>                  
-              </section>
-
               <!-- Numerical methods -->
               <section>
                 <h3>Cambridge-Berkeley computational geomechanics</h3>
@@ -94,20 +81,140 @@
             </section>
 
 
-            <!-- Dry v Fluid -->
+            <!-- Aerial landslides -->
             <section>
+              <section>
+                <h2>Aerial landslides</h2>
+	        <img src="images/landslides.png" width="80%">
+              </section>
+
+              <section>
+                <h2>Granular column collapse</h2>
+	        <img src="images/column_collapse.png" width="80%">
+              </section>
+
+              <section>
+                <h2>Experimental results (Lube et al 2005)</h2>
+	        <img src="images/runout_column_collapse.png" width="70%">
+              </section>
+
+
+              <!-- Multiscale approach -->
+              <section>
+                <h2>Multiscale modelling in geomechanics</h2>
+	        <figure>
+	          <img src="images/multiscale.png" width="100%">
+	        </figure>                  
+              </section>
+
+              <!-- Multiscale approach -->
+              <section>
+                <h2>Mesh-based vs Mesh-free techniques</h2>
+	        <figure>
+	          <img src="images/continuum_approaches.png" width="100%">
+	        </figure>                  
+              </section>
+              
+              <!-- Material Point Method -->
+              <section>
+                <h2>Material Point Method</h2>
+                <figure>
+	          <img src="images/mpm_equation.png" width="20%">
+	        </figure>         
+                <figure>
+	          <img src="images/mpm_algo.png" width="100%">
+	        </figure>
+              </section>
+
+
+              <!-- Material Point Method -->
+              <section>
+                <h2>MPM v DEM column collapse</h2>
+                <div style="float: left; width: 50%;">
+	          <figure>
+	            <img src="images/a04f.png" width="100%">
+                    <figcaption>
+                      a = 0.4
+                    </figcaption>
+	          </figure>                  
+                </div>
+                <div style="float: right; width: 50%;">
+	          <figure>
+	            <img src="images/a6f.png" width="100%">
+                    <figcaption>
+                      a = 6
+                    </figcaption>
+	          </figure>
+                </div>
+              </section>
+              
+
+              <!-- DEM -->
+              <section>
+                <h2>DEM column collapse</h2>
+                <video  width="80%" controls loop>
+                  <source src="media/a6_dem.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+              </section>
+
+              <!-- MPM v DEM runout -->
+              <section>
+                <h2>Column collapse runout</h2>
+	        <figure>
+	          <img src="images/mpm_colum_runout.png" width="80%">
+                  <figcaption>
+                    Run-out v aspect ratio
+                  </figcaption>
+	        </figure>                  
+              </section>
+
+              
+              <!-- MPM slope -->
+              <section>
+                <h2>Granular slope subjected to impact</h2>
+                <h3>MPM simulation</h3>
+                <video  width="100%" controls loop>
+                  <source src="media/mpm_100j.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+              </section>
+              
+             <!-- MPM v DEM runout -->
+              <section>
+                <h2>Granular collapse v slope subjected to impact</h2>
+	        <figure>
+	          <img src="images/mpm_slope_column.png" width="90%">
+	        </figure>                  
+              </section>
+            </section>
+
+	    <!-- Underwater landslides -->
+	    <section>
+              <!-- Submarine landslide -->
+              <section>
+                <h2>Submarine landslides</h2>
+                <img src="images/submarine_landslide.png" width="70%">
+              </section>
+
+              <!-- Landslide mechanism -->
+              <section>
+                <h2>Mechanism of submarine landslides</h2>
+                <h3>Modelling Test at 1g Condition</h3>
+                <img src="images/hydroplaning.png" width="100%">
+		<ul>
+                  <li>Material type influences the mode of the flow.</li>
+                  <li>Target: Clay‐rich flow (Less diffusive, Hydroplaning).</li>
+                </ul>
+              </section>
+
+
               <!-- Dissipation mechanism -->
               <section>
                 <h2>Landslides: dissipation mechanism</h2>
 	              <img src="images/landslide.png" width="100%">
               </section>
-
-              <!-- Experimental set-up -->
-              <section>
-                <h2>Collapse in fluid: Set-up</h2>
-                <img src = "images/geometry.png" width="100%" style="border:0">
-              </section>
-
+        
               <!-- LBM DEM a6 -->
               <section>
                 <h3>LBM - DEM simulation of granular collapse in fluid</h3>
@@ -165,7 +272,7 @@
               </section>
 
               <!-- LBM-DEM fluid solid coupling -->
-              <section>
+              <!--<section>
    	        <h3>LBM-DEM fluid-solid coupling </h3>
                 <div style="float: left; width: 70%;">
                   <figure>
@@ -186,10 +293,10 @@
                       Your browser does not support the video tag.
                   </video>
                 </div>
-              </section>
+              </section>-->
 
               <!-- Turulence modelling in LBM -->
-              <section>
+              <!-- <section>
 		<h2>LBM laminar & turbulent flows</h2>
                 <div style="float: left; width: 47%;">
 		  <figure>
@@ -221,7 +328,7 @@
 		  </video>
 		  <br/>Karman Vortex Street
                 </div>
-              </section>
+              </section>-->
 
 
               <!-- LBM fluid collapse a0.4 and a4 -->
@@ -246,28 +353,6 @@
                   <input type="button" id="pause-button" onclick="PauseVideo('a04');PauseVideo('a4')"; this.disable=true; play-button.disable=false; value="Pause" />
                 </div>
               </section>
-
-              <!-- Effect of permeability -->
-              <section>
-                <h2>Collapse in fluid: Effect of permeability</h2>
-                <video id="r07_r" width="80%" >
-                  <source src="media/a08_r07.webm" type="video/webm">
-  	            Your browser does not support the video tag.
-                </video>
-                <br />Reduction ‘R’=0.7r<br />
-                
-                <video id="r095_r" width="79%" >
-                  <source src="media/a08_r095.webm" type="video/webm">
-  	            Your browser does not support <th></th>e video tag.
-                </video>
-                <br />Reduction ‘R’=0.9r<br />
-
-                <div class="media-buttons">
-                  <input type="button" id="play-button" onclick="PlayVideo('r07_r');PlayVideo('r095_r')"; this.disable=true; pause-button.disable=false; value="Play" />
-                  <input type="button" id="pause-button" onclick="PauseVideo('r07_r');PauseVideo('r095_r')"; this.disable=true; play-button.disable=false; value="Pause" />
-                </div>
-              </section>
-
 
               <!-- Hydrodynamic radius -->
               <section>
@@ -354,13 +439,6 @@
                   </figure>
               </section>
 
-              
-              <!-- CPU v GPU -->
-              <section>
-                <h3>CPU v GPU</h3>
-                <img src="images/cpu_gpu.png" width ="100%">
-              </section>
-
               <!--LBM DEM 10,000 particles-->
               <section>
                 <h3>LBM - DEM a = 0.8 & 10,000 partilces</h3>
@@ -377,193 +455,24 @@
                   <li> Speedup = 25x on a Tesla K20</li>
               </section>
 
-              <!-- Developments and future plans -->
+              <!-- 2D to 3D -->
               <section>
-                <h2>LBM - DEM: Road map</h2>
-                <div style="float: left; width: 60%;">
-                  <ul>
-                    <li>Generic templatised C++11/14 code</li>
-	            <li>Live rendering of VTK using GPUs (inprogress)</li>
-  	            <li>Multi-GPU support across nodes</li>
-	            <li>LBM:</li>
-	            <ul>
-                      <li>3D LBM model</li>
-                      <li>3D LB - DEM coupling</li>
-                      <li>Two-phase LBM fluid flow</li>
-	            </ul>
-	            <li>DEM:</li>
-	            <ul>
-                      <li>3D DEM with different shapes</li>
-	              <li>DEM simulations on GPU</li>
-	              <li>Contact models for DEM</li>
-	              <li>Special boundaries for DEM</li>
-                      <li>Simulating billion DEM particles</li>
-	            </ul>
-                  </ul>
-                </div>
-                <div style="float: right; width: 40%;">
-                  <video  width="100%" controls loop>
-                    <source src="media/3d-lbm-multiphase.webm" type="video/webm">
-  	              Your browser does not support the video tag.
-                  </video>
+                <h2>2D to 3D</h2>
                   <figure>
-                    <img src="images/dem.jpg" width ="100%">
-                    <figcaption>
-                      Simulating millions of DEM particles
-                    </figcaption>
+                    <img src="images/lbm-2d-3d.png" width="90%">
                   </figure>
-                </div>
-              </section>
-            </section>
-
-            
-            <!-- Material Point Method -->
-            <section>
-              <!-- Multiscale approach -->
-              <section>
-                <h2>Mesh-based vs Mesh-free techniques</h2>
-	        <figure>
-	          <img src="images/continuum_approaches.png" width="100%">
-	        </figure>                  
-              </section>
-              
-              <!-- Material Point Method -->
-              <section>
-                <h2>Material Point Method</h2>
-	        <figure>
-	          <img src="images/mpm_soil.png" width="100%">
-	          <figcaption style = "font-size: 80%; text-align: center; ">
-		    Porosity in MPM </figcaption>
-	        </figure>
               </section>
 
-              <!-- Material Point Method -->
+              <!-- 2D to 3D -->
               <section>
-                <h2>Material Point Method</h2>
-                <div style="float: left; width: 50%;">
-	          <figure>
-	            <img src="images/mpm_flowchart.png" width="100%">
-	          </figure>                  
-                </div>
-                <div style="float: right; width: 50%;">
-	          <figure>
-	            <img src="images/mpm_algorithm.png" width="100%">
-	          </figure>
-                </div>
-              </section>
-
-
-              <!-- Material Point Method -->
-              <section>
-                <h2>MPM v DEM column collapse</h2>
-                <div style="float: left; width: 50%;">
-	          <figure>
-	            <img src="images/a04f.png" width="100%">
-                    <figcaption>
-                      a = 0.4
-                    </figcaption>
-	          </figure>                  
-                </div>
-                <div style="float: right; width: 50%;">
-	          <figure>
-	            <img src="images/a6f.png" width="100%">
-                    <figcaption>
-                      a = 6
-                    </figcaption>
-	          </figure>
-                </div>
-              </section>
-              
-
-              <!-- DEM -->
-              <section>
-                <h2>DEM column collapse</h2>
-                <video  width="80%" controls loop>
-                  <source src="media/a6_dem.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-              </section>
-
-              <!-- MPM v DEM runout -->
-              <section>
-                <h2>MPM v DEM column collapse</h2>
-	        <figure>
-	          <img src="images/mpm_colum_runout.png" width="80%">
-                  <figcaption>
-                    Run-out v aspect ratio
-                  </figcaption>
-	        </figure>                  
-              </section>
-
-              
-              <!-- MPM slope -->
-              <section>
-                <h2>MPM slope failure</h2>
+                <h2>LBM multi-component multi-phase</h2>
+                <br/>
                 <video  width="100%" controls loop>
-                  <source src="media/mpm_100j.webm" type="video/webm">
+                  <source src="media/3d-lbm-multiphase.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
               </section>
-              
-             <!-- MPM v DEM runout -->
-              <section>
-                <h2>MPM v DEM run-out slope v collapse</h2>
-	        <figure>
-	          <img src="images/mpm_slope_column.png" width="90%">
-                  <figcaption>
-                    Run-out v aspect ratio
-                  </figcaption>
-	        </figure>                  
-              </section>
             </section>
-
-            <!-- Lattice Element Method -->
-            <section>
-              <!-- Lattice Element Method -->
-              <section>
-                <h2>Lattice Element Method</h2>
-                <div style="float: left; width: 50%;">
-	          <figure>
-	            <img src="images/lem.png" style="width:80%">
-	          </figure>
-	        </div>	
-                <div style="float: right; width: 50%;">
-	          <figure>
-	            <img src="images/voro.png" width="100%">
-	          </figure>
-	        </div>
-              </section>
-
-              <!-- LEM Fluid coupling -->
-              <section>
-                <h2>Lattice Element Method - Fluid coupling</h2>
-                <div style="float: left; width: 50%;">
-                  <figure>
-	            <img src="images/pipe-network.png" style="width:80%">
-	          </figure>
-	        </div>	
-                <div style="float: right; width: 50%;">
-	          <ul>
-	            <li>First assume injection pressure $P_{in}$ and injection rate $Q_{in}$ at injection point</li>
-                    <li>Solve fluid pressure at each fluid node</li>
-                    <li>Convert pressure to node force and solve LEM to update fracture aperture</li>
-                    <li>Repeat the above process until convergence</li>
-	          </ul>
-	          $$q = - \frac{h^3}{12\mu}\frac{dp}{dx}$$
-  	        </div>
-              </section>
-
-              <!-- LEM Hydraulic fracturing -->
-              <section>
-                <h2>LEM hydraulic fracturing</h2>
-                <video  width="100%" controls loop>
-                  <source src="media/lem.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-                <p>John Wong, University of Cambridge</p>
-              </section>
-            </section>
-
 
             <!-- Summary -->
             <section>
