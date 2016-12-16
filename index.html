@@ -46,7 +46,10 @@
                 <h3>MPM and LBM-DEM</h3>
                 <p>
                   <br/>Krishna Kumar, <a href="mailto:kks32@cam.ac.uk">kks32@cam.ac.uk</a>
-                  <br/>University of Cambridge
+                  <br/>University of Cambridge.
+		  <br/>
+                  <br/>Kenichi Soga, <a href="mailto:soga@berkeley.edu">soga@berkeley.edu</a>
+                  <br/>University of California, Berkeley.
                 </p>
                 <br/>
                 <div style="float: left; width: 100%;">
@@ -212,8 +215,18 @@
 
               <!-- Dissipation mechanism -->
               <section>
-                <h2>Landslides: dissipation mechanism</h2>
-	              <img src="images/landslide.png" width="100%">
+                <h2>Possible boundary conditions of submarine run‐out</h2>
+	        <img src="images/landslide.png" width="80%">
+		<ul>
+                  <li>Presence of ambient water (larger drag force & less gravity).</li>
+                  <li>Water entrainment.</li>
+                  <li>Pore pressure does not dissipate.</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2>Mechanism of submarine runout</h2>
+	        <img src="images/water_entrainment.png" width="100%">
               </section>
         
               <!-- LBM DEM a6 -->
@@ -271,66 +284,6 @@
                   </figure>
                 </div>
               </section>
-
-              <!-- LBM-DEM fluid solid coupling -->
-              <!--<section>
-   	        <h3>LBM-DEM fluid-solid coupling </h3>
-                <div style="float: left; width: 70%;">
-                  <figure>
-                    <img src="images/lbm-dem.png" width = "70%">
-                  </figure>
-	          <div class = "block">
-	            $$\Delta t_{s}=\frac{\Delta t}{\mathit{n}_{s}} \qquad (\mathit{n}_{s}=[\Delta t/ \Delta t_{D}]+1) $$
-	          </div>
- 	          <ul>
-		    <li>At every fluid iteration, $\mathit{n}_{s}$ 
-		      sub-steps of DEM iterations are performed using the time step $\Delta t_{s}$. </li>
-		    <li>The hydrodynamic force is unchanged during the sub-cycling. </li>
-	          </ul>
-                </div>
-                <div style="float: right; width: 30%;">
-                  <video id="Kissing" width="50%" controls loop>
-                    <source src="media/tumble.webm" type="video/webm">
-                      Your browser does not support the video tag.
-                  </video>
-                </div>
-              </section>-->
-
-              <!-- Turulence modelling in LBM -->
-              <!-- <section>
-		<h2>LBM laminar & turbulent flows</h2>
-                <div style="float: left; width: 47%;">
-		  <figure>
-		    <img src="images/obstacle_lbm.png" width ="80%">
-		    <figcaption style = "font-size: 80%; text-align: center; ">
-                      Lattice Boltzmann
-                    </figcaption>
-		  </figure>
-		  <br />
-		  <figure>
-		    <img src="images/obstacle_cfd.png" width ="85%">
-		    <figcaption style = "font-size: 80%; text-align: center; ">
-                      CFD
-                    </figcaption>
-		  </figure>
-	        </div>
-                <div style="float: right; width: 47%;">
-	  	  <figure>
-	  	    <img src="images/poiseuille.png" width ="70%">
-	  	    <figcaption style = "font-size: 80%; text-align: center;">
-                      Poiseuille Flow
-                    </figcaption>
-	  	  </figure>
-                  <p> Smagorinsky model (LES):</p>
-                  $\nu_{s}(x,t)=(C_s \Delta)^2\sqrt{S_{ij}S_{ij}} \mbox{  ;  } S_{ij}=\frac{1}{2}(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i})$
-	  	  <video  id="Karman" width="120%" controls>
-	  	    <source src="media/karman.webm" type="video/webm">
-	  	      Your browser does not support the video tag.
-		  </video>
-		  <br/>Karman Vortex Street
-                </div>
-              </section>-->
-
 
               <!-- LBM fluid collapse a0.4 and a4 -->
               <section>
